@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://www.google.com"
+        }
+      },
+      "condition": {
+        "urlFilter": "*://*.facebook.com/*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://www.google.com"
+        }
+      },
+      "condition": {
+        "urlFilter": "*://*.instagram.com/*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+      "id": 3,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://www.google.com"
+        }
+      },
+      "condition": {
+        "urlFilter": "*://*.twitter.com/*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+      "id": 4,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://www.google.com"
+        }
+      },
+      "condition": {
+        "urlFilter": "*://*.youtube.com/*",
+        "resourceTypes": ["main_frame"]
+      }
+    }
+  ]
+  
