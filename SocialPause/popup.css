@@ -1,0 +1,12 @@
+body {
+    width: 250px; /* Thay đổi chiều ngang của popup */
+    height: 200px; /* Thay đổi chiều dọc của popup */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #toggle-block {
+    transform: scale(1.5); /* Phóng to kích thước của toggle switch */
+    margin: 10px 0;
+  }
+  
